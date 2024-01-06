@@ -34,14 +34,23 @@
     abstract = "We propose a framework for online multimodal dialog act (DA) classification based on raw audio and ASR-generated transcriptions of current and past utterances. Existing multimodal DA classification approaches are limited by ineffective audio modeling and late-stage fusion. We showcase significant improvements in multimodal DA classification by integrating modalities at a more granular level and incorporating recent advancements in large language and audio models for audio feature extraction. We further investigate the effectiveness of self-attention and cross-attention mechanisms in modeling utterances and dialogs for DA classification. We achieve a substantial increase of 3 percentage points in the F1 score relative to current state-of-the-art models on two prominent DA classification datasets, MRDA and EMOTyDA.",
 }
 
-@inproceedings{cooper-OTH-2023-EMNLP,
+@inproceedings{cooper-etal-2023-hiding,
     title = "Hiding in Plain Sight: Tweets with Hate Speech Masked by Homoglyphs",
-    author = "Portia Cooper and Mihai Surdeanu and Eduardo Blanco",
-    booktitle = "Findings of the Empirical Methods in Natural Language Processing: EMNLP 2023",
+    author = "Cooper, Portia  and
+      Surdeanu, Mihai  and
+      Blanco, Eduardo",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
     month = dec,
     year = "2023",
-    url = "https://clulab.org/papers/Hiding_in_Plain_Sight_Tweets_with_Hate_Speech_Masked_by_Homoglyphs_EMNLP_2023.pdf"
-    publisher = "Empirical Methods in Natural Language Processing",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.192",
+    doi = "10.18653/v1/2023.findings-emnlp.192",
+    pages = "2922--2929",
+    abstract = "To avoid detection by current NLP monitoring applications, progenitors of hate speech often replace one or more letters in offensive words with homoglyphs, visually similar Unicode characters. Harvesting real-world hate speech containing homoglyphs is challenging due to the vast replacement possibilities. We developed a character substitution scraping method and assembled the Offensive Tweets with Homoglyphs (OTH) Dataset (N=90,788) with more than 1.5 million occurrences of 1,281 non-Latin characters (emojis excluded). In an annotated sample (n=700), 40.14{\%} of the tweets were found to contain hate speech. We assessed the performance of seven transformer-based hate speech detection models and found that they performed poorly in a zero-shot setting (F1 scores between 0.04 and 0.52) but normalizing the data dramatically improved detection (F1 scores between 0.59 and 0.71). Training the models using the annotated data further boosted performance (highest micro-averaged F1 score=0.88, using five-fold cross validation). This study indicates that a dataset containing homoglyphs known and unknown to the scraping script can be collected, and that neural models can be trained to recognize camouflaged real-world hate speech.",
 }
 
 @inproceedings{kwak-et-al-nllp2023-error-analysis,
